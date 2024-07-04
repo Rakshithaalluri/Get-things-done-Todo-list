@@ -1,0 +1,61 @@
+.task-input{
+    outline: none;
+    width: 300px;
+    padding: 10.5px;
+    font-size: 17px;
+    color: #424242;
+    background-color: bisque;
+    border: 1px solid #c89666;
+    border-radius: 10px 0 0 10px;
+}
+@media (min-width:375px){
+    .task-input{
+        width: 75%;
+        padding: 5px;
+        border-radius: 5px 0 0 5px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:768px){
+    .task-input{
+        width: 80%;
+        padding: 10px;
+    }
+}
+.make-button{
+    width: 70px;
+    padding: 11px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background-color: #74625D;
+    color: #ccc;
+    cursor: pointer;
+}
+
+@media (min-width:375px){
+    .make-button{
+        width: 40px;
+        border-radius: 0 5px 5px 0;
+        font-size: 10.5px;
+        padding: 6px;
+    }
+}
+
+@media (min-width:768px){
+    .make-button{
+    width: 70px;
+    font-size: 12px;
+    padding: 11px;
+    }
+}
+
+.make-button:hover {
+    background-color: #333;
+  }
+
+.date{
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+.list{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border: 1px solid #74625D;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 13px;
+    width: 90%;
+    
+}
+
+.button-complete,
+.button-delete,
+.button-edit{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 23px;
+    border-radius: 50%;
+}
+
+.button-complete{
+    color: #427945;
+    margin-right: 10px;
+}
+
+.button-edit{
+    color: #e2e2e2;
+    margin-right: 10px;
+}
+.button-edit:hover {
+    color: #218838; /* Darker green on hover */
+}
+
+.button-delete{
+    color: red;
+}
+
+.complete{
+    text-decoration-style: solid;
+    text-decoration-line: line-through;
+    text-decoration-color: #f7f2f2;
+    opacity: 0.6;
+}
+
+.list-item{
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    color: #ccc;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 15px;
+}
+
+input:focus,
+button:focus{
+    outline: none;
+}
