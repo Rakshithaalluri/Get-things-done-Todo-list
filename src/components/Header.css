@@ -3,7 +3,7 @@
     margin: 30px 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .heading{
@@ -29,6 +29,13 @@
     }
   }
 
+  @media (min-width:320px){
+    .heading{
+      font-size: 18px;
+
+    }
+  }
+
   .title{
     color:#CCC2BE;
     font-family: monospace;
@@ -47,6 +54,11 @@
     }
   }
 
+  @media (min-width:320px){
+    .title{
+      font-size: 10px;
+    }
+  }
 
   .todo-container{
     display: flex;

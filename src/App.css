@@ -48,3 +48,11 @@
    min-height: 480px; 
   }
 }
+@media (min-width: 320px){
+  .app-wrapper{
+    width: 60%;
+    min-width: 280px;
+   min-height: 330px; 
+  }
+}
+

@@ -27,7 +27,7 @@ const Tasks = props => {
           setTodos(todos.filter((todo) => todo.id !== id));
     }
   return (
-    <ul>
+    <ul className='lists-container'>
       {todos.map((todo) => (
         <li className="list" key={todo.id}>
           <button className='button-complete task-button' onClick={() => onComplete(todo)}>
