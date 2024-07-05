@@ -48,26 +48,33 @@ This will start the application and open it in your default web browser. If it d
 ## Project Structure
 
 src/App.js: The main component that holds the state and renders the Header, Form, and Tasks components.
+
 src/components/Form.js: A functional component that handles the input form for adding and editing tasks.
+
 src/components/Header.js: A simple component that displays the header of the application.
+
 src/components/Tasks.js: A component that displays the list of tasks and handles the completion and deletion of tasks.
+
 src/App.css: Styles for the main application component.
+
 src/components/Form.css: Styles for the Form component.
+
 src/components/Header.css: Styles for the Header component.
+
 src/components/Tasks.css: Styles for the Tasks component.
 
-## Components
+# Components
 
-# App Component
+## App Component
 Manages the state of the application.
 Handles local storage for tasks.
 Renders Header, Form, and Tasks components.
 
-# Form Component
+## Form Component
 Handles input for new tasks and editing existing tasks.
 Updates the state in the App component.
 
-# Header Component
+## Header Component
 Displays the main heading and subtitle of the application.
 
 # Tasks Component
