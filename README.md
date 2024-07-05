@@ -18,7 +18,7 @@ CSS
 JavaScript
 React Icons
 
-### Getting Started 
+# Getting Started 
 ## Prerequisites
 
 Make sure you have the following installed on your machine:
@@ -26,7 +26,7 @@ Make sure you have the following installed on your machine:
 Node.js
 npm (Node Package Manager)
 
-### Installation
+# Installation
 
 ## Clone the repository:
 
