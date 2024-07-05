@@ -27,7 +27,7 @@ const Tasks = props => {
           setTodos(todos.filter((todo) => todo.id !== id));
     }
   return (
-    <div>
+    <ul>
       {todos.map((todo) => (
         <li className="list" key={todo.id}>
           <button className='button-complete task-button' onClick={() => onComplete(todo)}>
@@ -47,7 +47,7 @@ const Tasks = props => {
           </button>
         </li>
       ))}
-    </div>
+    </ul>
   );
 };
 

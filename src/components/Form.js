@@ -40,10 +40,10 @@ const Form = props => {
     }
         return(
             <>
-           <form onSubmit={onFormSubmit}>
+           <form onSubmit={onFormSubmit} className='input-container'>
             <input type="text" placeholder='Enter a Task...' className='task-input' value={input} required 
             onChange={onInputChange}/> 
-            <button className='make-button' type="submit"> Got it! </button>
+            <button className='make-button' type="submit"> Add. </button>
            </form>
          
            </>

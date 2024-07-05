@@ -1,6 +1,11 @@
+.input-container{
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+
 .task-input{
     outline: none;
-    width: 300px;
     padding: 10.5px;
     font-size: 17px;
     color: #424242;
@@ -8,10 +13,10 @@
     border: 1px solid #c89666;
     border-radius: 10px 0 0 10px;
 }
+
 @media (min-width:375px){
     .task-input{
         width: 75%;
-        padding: 4px;
         border-radius: 5px 0 0 5px;
         font-size: 12px;
        
@@ -26,7 +31,9 @@
 }
 .make-button{
     width: 70px;
-    padding: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 17px;
     outline: none;
     border: none;
