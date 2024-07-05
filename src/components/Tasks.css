@@ -5,9 +5,15 @@
     border: 1px solid #74625D;
     border-radius: 10px;
     padding: 10px;
-    max-height: 13px;
+    height: 10px;
     width: 90%;
     
+}
+
+@media (min-width:375px){
+    .list{
+    height: 4px;
+    }
 }
 
 .button-complete,
@@ -17,7 +23,7 @@
     outline: none;
     cursor: pointer;
     background-color: transparent;
-    font-size: 23px;
+    font-size: 20px;
     border-radius: 50%;
 }
 
@@ -29,13 +35,14 @@
 .button-edit{
     color: #e2e2e2;
     margin-right: 10px;
+   
 }
 .button-edit:hover {
     color: #218838; /* Darker green on hover */
 }
 
 .button-delete{
-    color: red;
+    color: rgb(133, 99, 99);
 }
 
 .complete{
@@ -50,7 +57,7 @@
     background-color: transparent;
     border: none;
     color: #ccc;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 10px;
     margin-right: 15px;
 }

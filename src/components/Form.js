@@ -3,11 +3,14 @@ import {v4 as uuidv4} from "uuid";
 import './Form.css'
 
 
-const Form = ({input, setInput, todos, setTodos, editTodo, setEditTodo}) => {
+const Form = props => {
+    const {input, setInput, todos, setTodos, editTodo, setEditTodo} = props
     const onInputChange = (event) => {
-        setInput(event.target.value)
+        this.setState({
+            setInput: event.target.value
+        })
+        
     }
-
 
     const updateTodo = (title, id,completed) => {
         const newTodo = todos.map((todo) => 
