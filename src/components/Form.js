@@ -5,12 +5,12 @@ import './Form.css'
 
 const Form = props => {
     const {input, setInput, todos, setTodos, editTodo, setEditTodo} = props
-    const onInputChange = (event) => {
-        this.setState({
-            setInput: event.target.value
-        })
+   
+        const onInputChange = (event) => {
+            setInput(event.target.value);
+          };
         
-    }
+  
 
     const updateTodo = (title, id,completed) => {
         const newTodo = todos.map((todo) => 
