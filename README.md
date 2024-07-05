@@ -1,70 +1,94 @@
 # ToDo List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and elegant ToDo List application built with React. This application allows users to add, edit, complete, and delete tasks. The tasks are stored in the browser's local storage so that they persist even after the page is refreshed.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Add new tasks
+Edit existing tasks
+Mark tasks as completed
+Delete tasks
+Persistent storage using local storage
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React
+HTML
+CSS
+JavaScript
+React Icons
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Getting Started 
+## Prerequisites
 
-### `npm test`
+Make sure you have the following installed on your machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Node.js
+npm (Node Package Manager)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://github.com/Rakshithaalluri/Get-things-done-Todo-list.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Navigate to the project directory:
+cd todo-list
 
-### `npm run eject`
+## Install the dependencies:
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Running the Application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the application in development mode, run:
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This will start the application and open it in your default web browser. If it doesn't open automatically, navigate to http://localhost:3000 in your browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+src/App.js: The main component that holds the state and renders the Header, Form, and Tasks components.
+src/components/Form.js: A functional component that handles the input form for adding and editing tasks.
+src/components/Header.js: A simple component that displays the header of the application.
+src/components/Tasks.js: A component that displays the list of tasks and handles the completion and deletion of tasks.
+src/App.css: Styles for the main application component.
+src/components/Form.css: Styles for the Form component.
+src/components/Header.css: Styles for the Header component.
+src/components/Tasks.css: Styles for the Tasks component.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Components
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# App Component
+Manages the state of the application.
+Handles local storage for tasks.
+Renders Header, Form, and Tasks components.
 
-### Code Splitting
+# Form Component
+Handles input for new tasks and editing existing tasks.
+Updates the state in the App component.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Header Component
+Displays the main heading and subtitle of the application.
 
-### Analyzing the Bundle Size
+# Tasks Component
+Displays the list of tasks.
+Handles task completion, deletion, and editing.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## CSS Styling
+The application uses CSS for styling, with media queries for responsiveness. Each component has its own CSS file for better modularity.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Deployment 
 
-### Advanced Configuration
+To build the application for production, run:
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This will create an optimized production build in the build folder. You can then deploy the contents of the build folder to your preferred hosting service.
 
-### Deployment
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
